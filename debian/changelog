@@ -1,0 +1,1386 @@
+commhistory-daemon (0.3.2+0m8) unstable; urgency=low
+
+  * This entry has been added by BIFH queue processor
+    version has been changed to 0.3.2+0m8
+    * Fixes: NB#292658 - Empty MMS notification ("Private number") is received when reconnecting to MUC with pending edited messages
+    * Fixes: NB#293992 - Missed call notification is still shown though the missed call event is not available
+
+ -- BIFH Bot <sysint@maemo.research.nokia.com>  Thu, 16 Feb 2012 10:51:05 +0200
+
+commhistory-daemon (0.3.2) unstable; urgency=low
+
+  * Addresses: NB#267968 - MUI not showing MUC status reliable
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Thu, 16 Feb 2012 10:51:04 +0200
+
+commhistory-daemon (0.3.1) unstable; urgency=low
+
+  * Fixes: NB#295511 - Conversation thread marked with wrong contact name in this scenario.
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 15 Feb 2012 11:24:26 +0200
+
+commhistory-daemon (0.3.0) unstable; urgency=low
+
+  * Fixes: NB#279881 - commhistory daemon crash when started wo dbus
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Fri, 27 Jan 2012 14:41:36 +0200
+
+commhistory-daemon (0.2.0.16) unstable; urgency=low
+
+  * Fixes: NB#293224 - <coverity> defects from commhistory-daemon/0.2.0.14_0m7
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Thu, 01 Dec 2011 14:03:07 +0200
+
+commhistory-daemon (0.2.0.15.2) unstable; urgency=low
+
+  * Another test fix.
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 23 Nov 2011 10:15:50 +0200
+
+commhistory-daemon (0.2.0.15.1) unstable; urgency=low
+
+  * Fixed test cases.
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 21 Nov 2011 14:10:50 +0200
+
+commhistory-daemon (0.2.0.15) unstable; urgency=low
+
+  * Fixes: NB#288953 - Notification Screen: Contactnames separator is "," instead of "." in Arabic
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 02 Nov 2011 12:40:21 +0200
+
+commhistory-daemon (0.2.0.14) unstable; urgency=low
+
+  * Fixes: NB#288578 - Instead of missed video call log, missed audio call log is shown in Call history.
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 02 Nov 2011 12:40:21 +0200
+
+commhistory-daemon (0.2.0.13) unstable; urgency=low
+
+  * Support video call logging.
+  * Fixes: NB#286551 - [TASK] Logging video calls
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Tue, 25 Oct 2011 13:57:30 +0300
+
+commhistory-daemon (0.2.0.12) unstable; urgency=low
+
+  * Fixes: NB#254608 - commhistoryd is missing capabilities
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Fri, 14 Oct 2011 09:27:22 +0300
+
+commhistory-daemon (0.2.0.11) unstable; urgency=low
+
+  * Fixes: NB#205714 - "OFFLINE" label is missing in Conversational View
+  * Test fixes.
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Fri, 07 Oct 2011 15:21:27 +0300
+
+commhistory-daemon (0.2.0.10) unstable; urgency=low
+
+  * Addresses: NB#276015 - Warning sound warning_snd is missing in messaging-ui application
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 05 Oct 2011 13:58:03 +0300
+
+commhistory-daemon (0.2.0.9) unstable; urgency=low
+
+  * Fixes: NB#284832 - Misleading event page notification when replacing one SMS message with another
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Tue, 04 Oct 2011 11:51:35 +0300
+
+commhistory-daemon (0.2.0.8) unstable; urgency=low
+
+  * Fixes: NB#278921 - call log item does not get removed when an account is deleted in disabled state
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Tue, 27 Sep 2011 15:47:37 +0300
+
+commhistory-daemon (0.2.0.7) unstable; urgency=low
+
+  * Fixes: NB#281957 - OTC - Voicemail SMS Alert and SMS Replace Type 6
+  * Omit contact group changes and presence changes from QContactManager
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 26 Sep 2011 15:49:09 +0300
+
+commhistory-daemon (0.2.0.6) unstable; urgency=low
+
+  * Fixes: NB#282493 - Messages received during backup procedure are missing
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 21 Sep 2011 10:36:19 +0300
+
+commhistory-daemon (0.2.0.5) unstable; urgency=low
+
+  * Preventing message loss.
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Fri, 16 Sep 2011 17:07:27 +0300
+
+commhistory-daemon (0.2.0.4) unstable; urgency=low
+
+  * Fixes: NB#280727 - Event Page SMS notification is not removed, after receiving new text message, while Conversations List View with SMS and MMS filtering is opened in foreground
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 14 Sep 2011 13:30:23 +0300
+
+commhistory-daemon (0.2.0.3) unstable; urgency=low
+
+  * Fixes: NB#279001 - commhistory daemon should handle action messages
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 07 Sep 2011 14:16:38 +0300
+
+commhistory-daemon (0.2.0.2) unstable; urgency=low
+
+  * Fixes: NB#279022 - Commhistory daemon should support supersedes
+    header
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 05 Sep 2011 15:11:00 +0300
+
+commhistory-daemon (0.2.0.1) unstable; urgency=low
+
+  * Fixes: NB#269807 - Skype id gets displayed instead of skype user name in event message when a user joins group chat
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 05 Sep 2011 13:47:25 +0300
+
+commhistory-daemon (0.2.0.0) unstable; urgency=low
+
+  * Fixes: NB#269751 - Authorization dialog does not get displayed on selecting the second authorization event from notification area
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 29 Aug 2011 12:10:18 +0300
+
+commhistory-daemon (0.1.0.8) unstable; urgency=low
+
+  * Fixes: NB#264296 - Incorrect error message gets displayed when Authorization request of disabled account is selected
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 17 Aug 2011 12:35:15 +0300
+
+commhistory-daemon (0.1.0.7) unstable; urgency=low
+
+  * Fixes: NB#275936 - Received SMS Class 0 messages are displayed again after rebooting the device
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Tue, 16 Aug 2011 12:35:15 +0300
+
+commhistory-daemon (0.1.0.6) unstable; urgency=low
+
+  * Fixes: NB#266223 - [TASK] Messaging: Inconsistency of numbers mode usage.
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 15 Aug 2011 17:34:17 +0300
+
+commhistory-daemon (0.1.0.5) unstable; urgency=low
+
+  * Bugfixes
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 9 Aug 2011 12:32:11 +0300
+
+commhistory-daemon (0.1.0.4) unstable; urgency=low
+
+  * Fixes: NB#268333 - Wrong behavior of Skype notification time stamp on lock screen and notifications page
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 1 Aug 2011 17:29:45 +0300
+
+commhistory-daemon (0.1.0.3) unstable; urgency=low
+
+  * Fixes: NB#274355 - [TASK] icon-s-status-mms should be used as preview icon for MMS notifications
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Mon, 25 Jul 2011 13:20:09 +0300
+
+commhistory-daemon (0.1.0.2) unstable; urgency=low
+
+  * Fixes: NB#274025 - [TASK] Notification indications improvements: Messaging UI part
+  * Fixes: NB#274026 - [TASK] Notification indications improvements: Call UI part
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Sun, 24 Jul 2011 15:31:49 +0300
+
+commhistory-daemon (0.1.0.1) unstable; urgency=low
+
+  * Fixes: NB#272074 - Skype muc: status message about clearing topic is confusing
+  * Fixes: NB#272080 - Skype muc: incomplete status message when topic set by TD
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 20 Jul 2011 17:57:04 +0300
+
+commhistory-daemon (0.1.0.0) unstable; urgency=low
+
+  * Fixes: NB#258994 - Event message of participant along with their status message gets displayed when a MUC participant goes offline
+  * Fixes: NB#261573 - permanent-message-not-found error message displayed in MMS viewer
+  * Fixes: NB#268169 - FT_CN: The wrong behaviors happens when downloading MMS via manual
+  * Fixes: NB#263282 - Authorisation request doesn't get removed from notification
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 20 Jul 2011 16:48:59 +0300
+
+commhistory-daemon (0.0.28.12) unstable; urgency=low
+
+  * Fixes: NB#272432 - commhistory-daemon packages and source files have incorrect contact person
+
+ -- Reto Zingg <reto.zingg@nokia.com>  Wed, 13 Jul 2011 11:24:11 +0300
+
+commhistory-daemon (0.0.28.11) unstable; urgency=low
+
+  * Fixes: NB#270581 - Received or sent SMS/IM messages are visible in wrong conversation threads
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 11 Jul 2011 13:58:29 +0300
+
+commhistory-daemon (0.0.28.10) unstable; urgency=low
+
+  * Show authorization dialog also after dbus error that could happen when calling buddyauthorizer via dbus in a certain scenario.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 01 Jul 2011 13:19:42 +0300
+
+commhistory-daemon (0.0.28.9) unstable; urgency=low
+
+  * Fixes: NB#266722 - Unread SMS messages not found in device, despite
+    notifications on them.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 21 Jun 2011 09:53:24 +0300
+
+commhistory-daemon (0.0.28.8) unstable; urgency=low
+
+  * Fixes 266442 - 'Wrong character encoding for contact cards received via SMS' on chd side
+  * Don't set call start time again after the call has started
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 20 Jun 2011 14:49:52 +0300
+
+commhistory-daemon (0.0.28.7) unstable; urgency=low
+
+  * Took into account rounding errors with clock_monotonic vs. QDateTime also in case of emergency call tests like done already in case of normal calls in streaming module tests.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 14 Jun 2011 13:43:10 +0300
+
+commhistory-daemon (0.0.28.6) unstable; urgency=low
+
+  * New messages notifications should use comma AND space as separator of different senders
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 14 Jun 2011 13:12:49 +0300
+
+commhistory-daemon (0.0.28.5) unstable; urgency=low
+
+  * Fixes: NB#259698 - libcommhistory does not update user model correctly after SMS delivery
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 09 Jun 2011 09:37:00 +0300
+
+commhistory-daemon (0.0.28.4) unstable; urgency=low
+
+  * Partial fix for 257337 - Conversations List - UCS2 chars not displayed properly in case of contact card delivered to DUT
+    Second part of the fix is delivered in messaging-ui
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 27 May 2011 17:32:17 +0300
+
+commhistory-daemon (0.0.28.3) unstable; urgency=low
+
+  * Fixes: NB#258742 - commhistoryd Acknowledges incoming messages, although it's an Observer, not a Handler
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 25 May 2011 14:40:39 +0300
+
+commhistory-daemon (0.0.28.2) unstable; urgency=low
+
+  * Fixes: NB#258152 - Empty message bubble is displayed after receiving
+    SMS message from echo service
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 24 May 2011 15:44:48 +0300
+
+commhistory-daemon (0.0.28.1) unstable; urgency=low
+
+  * Automatic clean-up for old calls.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 24 May 2011 13:30:20 +0300
+
+commhistory-daemon (0.0.27.3) unstable; urgency=low
+
+  * Fixes: NB#258288 - [TASK] LPM Notifications: Call UI Part
+  * Fixes: NB#258289 - [TASK] LPM Notifications: Messaging UI Part
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 24 May 2011 11:32:49 +0300
+
+commhistory-daemon (0.0.27.2) unstable; urgency=low
+
+  * Fix invalidated() call testcase
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 19 May 2011 12:12:19 +0300
+
+commhistory-daemon (0.0.27.1) unstable; urgency=low
+
+  * Added AccountOperationsObserver to observe account removals and in case of removal delete calls and conversations of that removed account.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 19 May 2011 10:28:46 +0300
+
+commhistory-daemon (0.0.26.53) unstable; urgency=low
+
+  * Fix channel specs for TP observer
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 17 May 2011 15:45:19 +0300
+
+commhistory-daemon (0.0.26.52) unstable; urgency=low
+
+  * Update voicmail handling command
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 16 May 2011 14:41:26 +0300
+
+commhistory-daemon (0.0.26.51) unstable; urgency=low
+
+  * Fix duplicate MUC notifications
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 16 May 2011 10:02:30 +0300
+
+commhistory-daemon (0.0.26.50) unstable; urgency=low
+
+  * Fixes: NB#210037 - Buddyauthorizer crash observed in a particular scenario.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 11 May 2011 09:14:55 +0300
+
+commhistory-daemon (0.0.26.49) unstable; urgency=low
+
+  * Fix vcard storage directory path.
+  * Use QString::toUtf8().data() for getting vcard content for QVersitReader to get contact label.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 10 May 2011 12:06:59 +0300
+
+commhistory-daemon (0.0.26.48) unstable; urgency=low
+
+  * Fixes: NB#252878 - Call duration starts updating though the call is
+    not answered.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 06 May 2011 13:07:34 +0300
+
+commhistory-daemon (0.0.26.47) unstable; urgency=low
+
+  * Fixes: NB#251492 - Incorrect event message gets displayed when one of the participant is removed from group chat
+  * Fixes: NB#253055 - Skype id gets displayed instead of skype user name in event message of group chat conversation view
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 06 May 2011 11:34:02 +0300
+
+commhistory-daemon (0.0.26.46) unstable; urgency=low
+
+  * Fixes: NB#244874 - VoIP calls:Sometimes when the active call is ended timer resets to 00:00
+  * Fixes: NB#248657 - Events from group chats are not showing the title but instead the name of the sender
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 04 May 2011 14:24:28 +0300
+
+commhistory-daemon (0.0.26.45) unstable; urgency=low
+
+  * Fixes: NB#251490 - Incorrect string gets displayed when TD's account is removed from group chat
+  * Fixes: NB#251492 - Incorrect event message gets displayed when one of the participant is removed from group chat
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 03 May 2011 13:03:07 +0300
+
+commhistory-daemon (0.0.26.44) unstable; urgency=low
+
+  * Fixes: NB#239951 - Contact not not shown in SMS notification if number appears more than once in address book
+  * Fixes: NB#242922 - Incoming event when there is several messages from different contacts should list the contacts so that latest sender is first
+  * Fixes: NB#210186 - commhistoryd installs obsoleted init.d scripts
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 02 May 2011 11:02:19 +0300
+
+commhistory-daemon (0.0.26.43) unstable; urgency=low
+
+  * Fixes: NB#246052 - "Unable to send message to .." banner with incorrect icons
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 27 Apr 2011 14:49:24 +0300
+
+commhistory-daemon (0.0.26.42) unstable; urgency=low
+
+  * Add timeout for contact resolving requests
+  * Increase call event save interval to 5 minutes to decrease wake-ups
+  * Handle delivery report only after event commit
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 21 Apr 2011 15:07:06 +0300
+
+commhistory-daemon (0.0.26.41) unstable; urgency=low
+
+  * Fixes: NB#239534 - new message does not light up the screen
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 15 Apr 2011 13:46:14 +0300
+
+commhistory-daemon (0.0.26.40) unstable; urgency=low
+
+  * Fixes: NB#192348 - Missed call notification during ongoing call doesn't play beep tone
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 15 Apr 2011 09:04:54 +0300
+
+commhistory-daemon (0.0.26.39) unstable; urgency=low
+
+  * Fix for bug where MUC notification was not removed when opened MUC conv. page from inbox.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 14 Apr 2011 10:12:03 +0300
+
+commhistory-daemon (0.0.26.38) unstable; urgency=low
+
+  * Fixes: NB#219117 - Authorization dialog is displayed incorrectly
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 11 Apr 2011 13:47:45 +0300
+
+commhistory-daemon (0.0.26.37) unstable; urgency=low
+
+  * Fixed notification removal problems in case of MMS and SMS.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 11 Apr 2011 11:36:11 +0300
+
+commhistory-daemon (0.0.26.36) unstable; urgency=low
+
+  * Fixes: NB#238490 - commhistory-daemon CUD script is not needed anymore
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 08 Apr 2011 13:14:18 +0300
+
+commhistory-daemon (0.0.26.35) unstable; urgency=low
+
+  * Fixes: NB#239975 - Contacts are not resolved in notifications
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 05 Apr 2011 08:19:36 +0300
+
+commhistory-daemon (0.0.26.34) unstable; urgency=low
+
+  * Fixes: NB#240882 -
+    /home/user/.commhistoryd/notifications/storage.dat redundantly
+    rewritten
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 29 Mar 2011 12:30:49 +0300
+
+commhistory-daemon (0.0.26.33) unstable; urgency=low
+
+  * Fixes: NB#239474 - Duplicate set of Authorization request gets displayed when skype account is enabled
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 28 Mar 2011 17:14:30 +0300
+
+commhistory-daemon (0.0.26.32) unstable; urgency=low
+
+  * Fixes: NB#240486 - Messaging inbox does not show MMS snippet in case of empty subject after reboot
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 28 Mar 2011 14:37:16 +0300
+
+commhistory-daemon (0.0.26.31.2) unstable; urgency=low
+
+  * More test fixes.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 25 Mar 2011 11:57:32 +0200
+
+commhistory-daemon (0.0.26.31.1) unstable; urgency=low
+
+  * Version bump-up.
+
+ -- Subramanian Girish <ext-girish.1.subramanian@nokia.com>  Thu, 24 Mar 2011 15:52:21 +0200
+
+commhistory-daemon (0.0.26.31) unstable; urgency=low
+
+  * Fixed signal listening in some test cases.
+  * Update event start time also in case of failed delivery.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 24 Mar 2011 14:24:55 +0200
+
+commhistory-daemon (0.0.26.30) unstable; urgency=low
+
+  * Fixes: NB#223907 - Sending status is not properly updated when sending MMS to multiple recipients
+  * Fixes: NB#228714 - Subject not displayed for outgoing mms in conversations list
+  * Fixes: NB#236912 - Event type definition for Authorization request notifications is missing the private label
+  * Fixes: NB#236913 - Event type definition for voicemail notifications is missing the private label
+  * Fixes: NB#237602 - Wrong icon used in full event banners for voicemail notifications
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 18 Mar 2011 13:40:09 +0200
+
+commhistory-daemon (0.0.26.29) unstable; urgency=low
+
+  * Handle channel closing in the middle of libcommhistory
+    query/operation
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 17 Mar 2011 14:19:30 +0200
+
+commhistory-daemon (0.0.26.28) unstable; urgency=low
+
+  * Run tests as user
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 17 Mar 2011 10:51:12 +0200
+
+commhistory-daemon (0.0.26.27) released; urgency=low
+
+  * Adapt to the new libcommhistory 1.1
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 15 Mar 2011 11:48:10 +0200
+
+commhistory-daemon (0.0.26.26) released; urgency=low
+
+  * Fixes: NB#234856 - Call stored as 'Missed' if lost signal or remove
+    SIM card during active answered call
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 10 Mar 2011 11:11:25 +0200
+
+commhistory-daemon (0.0.26.25) released; urgency=low
+
+  * Fixed unit tests.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 10 Mar 2011 10:25:40 +0200
+
+commhistory-daemon (0.0.26.24) released; urgency=low
+
+  * Fixes: NB#233649 - Commhistory-daemon: misuse of contextkit
+  * Fixes: NB#228467 - Icons in Full event banners should be inverse versions
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 09 Mar 2011 10:12:15 +0200
+
+commhistory-daemon (0.0.26.23) released; urgency=low
+
+  * Fixes: NB#220049 - Message sent from same user from different device gets
+    reflected as message from buddy contact
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 07 Mar 2011 14:18:03 +0200
+
+commhistory-daemon (0.0.26.22) released; urgency=low
+
+  * Fixes: NB#224047 - Received authorization request is displayed even when the
+  corresponding account is deleted from device
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 04 Mar 2011 16:00:51 +0200
+
+commhistory-daemon (0.0.26.21) released; urgency=low
+
+  * Fixes: NB#226781 - Private event banner is not displayed properly
+  * Fixes: NB#227948 - Private label is missing from SMS notifications
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 04 Mar 2011 13:11:00 +0200
+
+commhistory-daemon (0.0.26.20) released; urgency=low
+
+  * Fixes: NB#227836 - Missed call label is not shown for Private event banner for missed call
+  * Fixes: NB#218154 - librtcom-telepathy-qt4 dependency to commhistory-daemon
+    should be dropped
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 28 Feb 2011 15:45:37 +0200
+
+commhistory-daemon (0.0.26.19) released; urgency=low
+
+  * Fixes: NB#227687 - Full event banner for new messages is missing sender names when there are multiple
+  * Fixes: NB#224047 - Received authorization request is displayed even when the corresponding
+  account is deleted from device
+  * Fixes: NB#228099 - Latest label missing from Full event banner
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 24 Feb 2011 13:51:01 +0200
+
+commhistory-daemon (0.0.26.17) released; urgency=low
+
+  * Fixes: NB#226187 - commhistoryd crashed while trying to accept a chat request
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 10 Feb 2011 13:44:32 +0200
+
+commhistory-daemon (0.0.26.16) released; urgency=low
+
+  * Fixes: NB#221998 - Messaging must show the sent timestamp instead of the received
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 09 Feb 2011 16:16:03 +0200
+
+commhistory-daemon (0.0.26.15) released; urgency=low
+
+  * Fixes: NB#204931 - "Authorization request" is never received on device if the account was offline when the request was sent
+  * Fixes: NB#212312 - Tp::SharedPtr should not be tested against NULL
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 02 Feb 2011 07:34:17 +0200
+
+commhistory-daemon (0.0.26.14) released; urgency=low
+
+  * Translate auth request error message
+  * Fix the notification label for received contact card.
+  * Fixes: NB#218239 - commhistory.prestart file presented in
+    /etc/prestart
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 28 Jan 2011 14:55:51 +0200
+
+commhistory-daemon (0.0.26.13) released; urgency=low
+
+  * Fixes: NB#218224 - Wrong icon name for missed call in events view
+  * Handle results from buddy authorizer with correct values.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 21 Jan 2011 15:41:31 +0200
+
+commhistory-daemon (0.0.26.12) released; urgency=low
+
+  * Fixes: NB#219100 - Authorization request event is not according to the specification
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 21 Jan 2011 13:29:56 +0200
+
+commhistory-daemon (0.0.26.11) released; urgency=low
+
+  * Fixes: NB#218887 - 'Unable to send message' notification is displayed when receiving 'Rejected' or 'Expired' delivery report for MMS
+  * Fixes: NB#219562 - Rejected/ Answered Cellular call logged as missed call.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 18 Jan 2011 12:14:21 +0200
+
+commhistory-daemon (0.0.26.10) released; urgency=low
+
+  * Fixes: NB#218156 - libmngfclient dependency to commhistory-daemon
+    should be dropped
+  * Fixes: NB#218172 - commhistory-daemon should be ported to telepathy-
+    qt4 0.5.x
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 14 Jan 2011 16:37:25 +0200
+
+commhistory-daemon (0.0.26.9) released; urgency=low
+
+  * Fixed unit tests
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 14 Jan 2011 14:41:45 +0200
+
+commhistory-daemon (0.0.26.8) released; urgency=low
+
+  * Fixes: NB#217055 - Conversational view - MMS notification is
+    displayed if msg belongs to the same message thread
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 12 Jan 2011 09:48:06 +0200
+
+commhistory-daemon (0.0.26.7) released; urgency=low
+
+  * Fixes: NB#213518 - Commhistory delays incoming calls by 250ms
+  * Fixes: NB#203551 - commhistory-daemon-tests fail during execution
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 10 Jan 2011 16:03:44 +0200
+
+commhistory-daemon (0.0.26.5) released; urgency=low
+
+  * QContactDisplayLabel hint added to contact request
+  * Fixes: NB#202245 - Sending offline message notification appears only once
+  * Remove in-memory group usage
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 29 Dec 2010 14:25:56 +0200
+
+commhistory-daemon (0.0.26.4) released; urgency=low
+
+  * Fixes: NB#210909 - Delivery report does not update in Conversational
+    View after MMS is delivered or read
+  * Fixes: NB#180379 - Incorrect Contact Card display
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 16 Dec 2010 11:50:11 +0200
+
+commhistory-daemon (0.0.26.3) released; urgency=low
+
+  * Fixes: NB#208487 - [Performance] Incoming SMS Notification is not
+    received when there is 1000 messages in inbox and 1000 contacts
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 14 Dec 2010 11:42:54 +0200
+
+commhistory-daemon (0.0.26.2) released; urgency=low
+
+  * Fixes: NB#209050 - Authorization request stays on the Events view forever
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 13 Dec 2010 16:21:46 +0200
+
+commhistory-daemon (0.0.26.1) released; urgency=low
+
+  * Proper copyright notes -> ready to open source
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 07 Dec 2010 09:16:19 +0200
+
+commhistory-daemon (0.0.25.10) released; urgency=low
+
+  * Add call event immediately when listener is created. Partially fixes NB#171781.
+  * Fixes: NB#204540 - Notifications - icons are very small (SMS and chat)
+  * Fixes: NB#209134 - Logical string seen on MMS info delivered
+    notification
+  * Fixes: NB#207478 - COREWEB: /usr/bin/commhistoryd mMessageHandler
+    qt_message_output qt_message
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 03 Dec 2010 17:11:58 +0200
+
+commhistory-daemon (0.0.25.9) released; urgency=low
+
+  * Fixes: NB#204921 - "Authorization dialog" is displayed each time user
+  tap on the "Authorization request" message from the Events list
+  * Distinguish send and delivery failures
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 01 Dec 2010 11:15:48 +0200
+
+commhistory-daemon (0.0.25.8) released; urgency=low
+
+  * Fixes: NB#187021 - Not able to view the message thread if we switch
+    off the DUT and then come back
+  * Fixes: NB#206991 - Call duration shown as 00:00 in call history view
+    till we change filtering view.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 26 Nov 2010 14:08:36 +0200
+
+commhistory-daemon (0.0.25.7) released; urgency=low
+
+  * Handle SIGTERM signal for gracefull exit
+  * Support CallHistory.Inbox context property for clearing call
+    notifications
+  * Don't use depricated tp-qt4 signals
+  * Fixes: NB#195290 - Failed messages does not get proper group updates
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 17 Nov 2010 15:17:22 +0200
+
+commhistory-daemon (0.0.25.6) released; urgency=low
+
+  * Fixes: NB#200578 - SEV-1 EF-MWIS file does not update correctly when
+    receiving 1 new voicemail
+  * Use librtcom-telepathy-qt4 instead of librtcom-telepathy-glib
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 08 Nov 2010 16:07:52 +0200
+
+commhistory-daemon (0.0.25.5) released; urgency=low
+
+  * Fixes: NB#202850 - [REG] Incoming and outgoing SMS messages are not
+    visible in Conversations List View
+  * Fixes: NB#202864 -  [REG] IM messages are not kept in Conversational
+    View if it is closed
+  * Fixes: NB#202886 - Cellular Call events (Dialed,received,missed)are
+    not shown in call history
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 05 Nov 2010 13:19:10 +0200
+
+commhistory-daemon (0.0.25.4) released; urgency=low
+
+  * Adapt to libcommhistory 1.0.35
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 04 Nov 2010 09:45:52 +0200
+
+commhistory-daemon (0.0.25.3) released; urgency=low
+
+  * fix compilation errors due to new glib, again.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 02 Nov 2010 11:26:26 +0200
+
+commhistory-daemon (0.0.25.2) released; urgency=low
+
+  * fix compilation errors due to new glib.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 02 Nov 2010 10:57:36 +0200
+
+commhistory-daemon (0.0.25.1) released; urgency=low
+
+  * Fixes: NB#200546 - Call history: Duration of the ongoing call is not
+    updating when the call is ended by removing battery
+  * Added implementation of buddy authorization.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 02 Nov 2010 09:25:04 +0200
+
+commhistory-daemon (0.0.24.3) released; urgency=low
+
+  * Modified topic is now stored into tracker.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 20 Oct 2010 08:22:16 +0300
+
+commhistory-daemon (0.0.24.2) released; urgency=low
+
+  * Fixed multi-user chat notifications.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 19 Oct 2010 09:43:32 +0300
+
+commhistory-daemon (0.0.24.1) released; urgency=low
+
+  * Added emergency call support.
+  * Don't send "X joined" event when X is self contact.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 14 Oct 2010 16:41:08 +0300
+
+commhistory-daemon (0.0.23.1) released; urgency=low
+
+  * Multi-user chat improvements added (handles topics, joinings and leavings).
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 06 Oct 2010 14:36:09 +0300
+
+commhistory-daemon (0.0.22.3) released; urgency=low
+
+  * Fixes: NB#180415 - No sound event SND_MESSAGE_FG if SMS is received
+    to the current conversation
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 06 Oct 2010 14:30:14 +0300
+
+commhistory-daemon (0.0.22.2) released; urgency=low
+
+  * Fixes: NB#191097 - 'DUT has left conversation' is displayed on PC if user deletes all chat messages in Conversational View
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 05 Oct 2010 09:14:34 +0300
+
+commhistory-daemon (0.0.22.1) released; urgency=low
+
+  * Added multi-user chat support.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 6 Sep 2010 9:09:10 +0300
+
+commhistory-daemon (0.0.21.13) released; urgency=low
+
+  * Fixes: NB#193945 -  [REG] Msg status/timestamp behaves strange in case of failed manual MMS download
+  * Fixes: NB#193523 -  Sent MMS message presented twice when sending to multiple recipients
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 29 Sep 2010 10:18:47 +0300
+
+commhistory-daemon (0.0.21.12) released; urgency=low
+
+  * Fixes: NB#191501 - USIM EF-Message Waiting Indication Status is not
+    being set correctly after receiving a MWI message
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Wed, 22 Sep 2010 10:45:21 +0300
+
+commhistory-daemon (0.0.21.11) released; urgency=low
+
+  * Adapt to new libcommhistory
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Tue, 21 Sep 2010 15:03:35 +0300
+
+commhistory-daemon (0.0.21.10) released; urgency=low
+
+  * Add tracker security tokens
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Tue, 21 Sep 2010 12:57:48 +0300
+
+commhistory-daemon (0.0.21.9) released; urgency=low
+
+  * Fixes: NB#180445 - Tapping on Voicemail notification doesn't
+    initiate call to Voicemail
+  * Fixes: NB#184635 - Device does not receive and acknowledge MWI
+    message
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Wed, 15 Sep 2010 16:34:20 +0300
+
+commhistory-daemon (0.0.21.8) released; urgency=low
+
+  * Fixes: NB#180013 - No info text while sending chat messages to an offline TSD contact in the chat conversation view.
+  * Create separate groups for each MMS recipient
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Fri, 10 Sep 2010 17:14:56 +0300
+
+commhistory-daemon (0.0.21.7) released; urgency=low
+
+  * Fixes: NB#173042 - Call logging needs to be properly serialized
+  * Fixes: NB#178981 - Call History:Ongoing call event is not registring when the call is ended by removing battery
+  * Fixes: NB#187958 - qtn_msg_no_netwrok_connection banner is not displayed while sending SMS message and SMSC number is not valid.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 6 Sep 2010 9:09:10 +0300
+
+commhistory-daemon (0.0.21.6) unstable; urgency=low
+
+  * Fixes: NB#182099 - There is no Missed call notification when the incoming Skype call is not attended
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Thu, 02 Sep 2010 14:58:06 +0300
+
+commhistory-daemon (0.0.21.5) unstable; urgency=low
+
+  * Fixes: NB#176666 - Call history doesn't open in default filtering view when we tap on missed call notification - If call history is opened with different filtering method.
+  * Fixes: NB#181290 - Notification is not removed from notification
+    area even if conversation is read (restart case)
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 2 Sep 2010 15:36:10 +0300
+
+commhistory-daemon (0.0.21.4) unstable; urgency=low
+
+  * Added in-memory group support
+  * Remove voicemail notifications only on MWI discard notice
+  * Expunge pending messages as well
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 30 Aug 2010 16:02:30 +0300
+
+commhistory-daemon (0.0.21.3) unstable; urgency=low
+
+  * removed the dependency on libqtorganiser-dev
+
+ -- ratna <ext-ratna.2.mahawadhi@nokia.com>  Thu, 26 Aug 2010 09:36:29 +0300
+
+commhistory-daemon (0.0.21.2) unstable; urgency=low
+
+  * Fixes: NB#183132 - Two separate threads(SMS and MMS) for the same phone number
+  * Added in-memory group support
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 25 Aug 2010 11:51:22 +0300
+
+commhistory-daemon (0.0.21.1) unstable; urgency=low
+
+  * Implement Clear User Data functionality.
+  * Fixes: NB#166102 - Remote contact status message is displayed after changing presence status
+  * Fixes: NB#180437 - Updated contact name not shown for further missed
+    call notifications - till we reboot the device.
+  * Fixes: NB#171795 - Commhistory should make use of channels'
+    immutable properties
+  * Fixes: NB#180073 - New SMS/IM message sent is logged into a
+    different thread, Conversational View is not updated
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 17 Aug 2010 16:53:15 +0300
+
+commhistory-daemon (0.0.20.4) unstable; urgency=low
+
+  * Set correct status for failed messages
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 02 Aug 2010 13:27:56 +0300
+
+commhistory-daemon (0.0.20.3) unstable; urgency=low
+
+  * Bumping version due to api break in libcommhistory
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 23 Jul 2010 17:50:10 +0530
+
+commhistory-daemon (0.0.20.2) unstable; urgency=low
+
+  * Fixes: NB#179660 - GSM number with and w/o country prefix is recognized as a two different numbers
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 20 Jul 2010 14:09:50 +0300
+
+commhistory-daemon (0.0.20.1) unstable; urgency=low
+
+  * Added support for class 0 sms messages
+  * Fixes: NB#179982 - New IM/SMS messages are not visible/logged after Delete Conversation option is used in Conversations List View
+  * Fixes: NB#179111 - MMS re-send creates a new message in conversation each time a re-send is retried
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 14 Jul 2010 14:16:18 +0300
+
+commhistory-daemon (0.0.19.14) unstable; urgency=low
+
+  * Fixes: NB#179631 - SMS text message is not visible on Conversational List View
+  * Fixes: NB#179660 - GSM number with and w/o country prefix is recognized as a two different numbers
+  * Close channel only if listener's group removed
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 13 Jul 2010 10:30:57 +0300
+
+commhistory-daemon (0.0.19.13) unstable; urgency=low
+
+  * Fixes: NB#176663 - Phone view doesn't come to foreground after we select missed call notification - If Dialer view is in foreground.
+  * Fixes: NB#176666 - Call history doesn't open in default filtering view when we tap on missed call notification - If call history is opened with different filtering method.
+  * Fixes: NB#166217 - Rejected call should not be logged as missed call.
+  * Fixes: NB#171585 - SMS notification stays in 'Status area' if unread
+    SMS is deleted, empty conversational view is opened
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 09 Jul 2010 15:24:53 +0300
+
+commhistory-daemon (0.0.19.12) unstable; urgency=low
+
+  * Implemented: SWP#HMMS-36 MMS Behavior on Reception of Delivery Receipt
+  * Keep full group model up to date with contact changes
+  * Fixes: NB#175655 - Incoming message notification displays wrong avatar and name
+  * Fixes: NB#172758 - Saved contact is not displayed in messaging (application restart needed)
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 06 Jul 2010 14:22:44 +0300
+
+commhistory-daemon (0.0.19.11) unstable; urgency=low
+
+  * Avoid crashing when message's sender is unknown
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 30 Jun 2010 17:49:48 +0300
+
+commhistory-daemon (0.0.19.10) unstable; urgency=low
+
+  * ASCII string literals replaced with QLatin1Strings
+  * Expunge delivery reports
+  * Don't show avatar in notifications
+  * Fix plural l18n for notifications
+  * Fixes: NB#165653 - Notifications are not grouped correctly in Status
+    Menu area (person centric event)
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 30 Jun 2010 14:57:32 +0300
+
+commhistory-daemon (0.0.19.9) unstable; urgency=low
+
+  * Fixes: NB#165653 - Notifications are not grouped correctly in Status
+    Menu area (person centric event)
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 22 Jun 2010 11:27:16 +0300
+
+commhistory-daemon (0.0.19.8) unstable; urgency=low
+
+  * Fixes: NB#175669 - Missed call event does not include feedbackId
+  * Fixes: NB#162404 - Call duration gets displayed even for calls which are not connected
+  * Fixes: NB#174334 - Timestamp for missed calls shown as 01/01/1970 01:00.
+  * Fixes: NB#173573 - Sometimes Call Duration has been shown wrongly in 6 Digit Hours.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 21 Jun 2010 15:30:41 +0300
+
+commhistory-daemon (0.0.19.7) unstable; urgency=low
+
+  * Fixes: NB#172678 - commhistoryd needs the aegis "Cellular" token
+  * Fixes: NB#170770 - remove l10n-engineering-english dependencies
+  * Fixes: NB#158286 - Messages are lost after device power off / reboot
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 17 Jun 2010 18:22:28 +0300
+
+commhistory-daemon (0.0.19.6) unstable; urgency=low
+
+  * Use EventModel::changeStatus() to improve performance
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 11 Jun 2010 18:02:10 +0300
+
+commhistory-daemon (0.0.19.5) unstable; urgency=low
+
+  * Added MMS read report and mmsId support.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 11 Jun 2010 14:01:17 +0300
+
+commhistory-daemon (0.0.19.4) unstable; urgency=low
+
+  * Resolve contacts for notifications efficiently
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Tue, 08 Jun 2010 10:59:48 +0300
+
+commhistory-daemon (0.0.19.3) unstable; urgency=low
+
+  * Corrected icon id for voicemail notification
+
+ -- Alvi Hiervela <alvi.hirvela@nokia.com>  Fri, 04 Jun 2010 14:35:00 +0300
+
+commhistory-daemon (0.0.19.2) unstable; urgency=low
+
+  * Corrected icon ids in SMS and IM notifications
+
+ -- Alvi Hiervela <alvi.hirvela@nokia.com>  Fri, 04 Jun 2010 10:11:20 +0300
+
+commhistory-daemon (0.0.19.1) unstable; urgency=low
+
+  * Implemented: SWP#RTCHM-2223 - Take notification types to RTCom
+  * Added separated MMS notification event type
+  * Fixes: NB#169135 - In MMS notification same icon is used as in SMS notification
+  * Fixes: NB#169128 - Contact Name is not shown in missed call notification for CS calls
+  * Fixes: NB#171866 - SMS thread is displayed twice in SMS
+    Conversational View if SMS is received after turning on the device
+
+ -- Alvi Hiervela <alvi.hirvela@nokia.com>  Thu, 03 Jun 2010 17:20:20 +0300
+
+commhistory-daemon (0.0.18.7) unstable; urgency=low
+
+  * Use stored messages telepathy interface to redeliver messages
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Fri, 28 May 2010 13:57:07 +0300
+
+commhistory-daemon (0.0.18.6) unstable; urgency=low
+
+  * Performance improvemens in commhistoryd
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Tue, 25 May 2010 09:00:19 +0300
+
+commhistory-daemon (0.0.18.5) unstable; urgency=low
+
+  * Set sending state for outgoing sms and mms messages
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Fri, 21 May 2010 16:32:02 +0300
+
+commhistory-daemon (0.0.18.4) unstable; urgency=low
+
+  * Fixes: NB#165239 -  New conversations threads are logged in
+    Conversations application for voicemail indications
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 18 May 2010 13:49:43 +0300
+
+commhistory-daemon (0.0.18.3) unstable; urgency=low
+
+  * Fixes: NB#168048 - If received SMS is deleted sent SMS is not logged
+    in SMS Conversational View nor in Conversational List
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 11 May 2010 10:01:08 +0300
+
+commhistory-daemon (0.0.18.2) unstable; urgency=low
+
+  * Added prestart configuration.
+  * Fixes: NB#165237 - Conversational View displays no SMS messages
+    after tapping incoming notification
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 07 May 2010 14:06:53 +0300
+
+commhistory-daemon (0.0.18.1) unstable; urgency=low
+
+  * Implemented: SWP#RTCHM-1771 - MMS notification
+  * Fixes: NB#165239 -  New conversations threads are logged in
+    Conversations application for voicemail indications
+  * Fixes: NB#165068 - Voice mail notification displayed in case of MWI
+    or DCS methods when Indicator inactive status is set
+  * Fixes: NB#165060 - Voice mail notification displays "0 voicemail(s)"
+    in case of DCS method
+  * Support CC and BCC fields for MMS events
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 04 May 2010 11:01:58 +0300
+
+commhistory-daemon (0.0.17.2) unstable; urgency=low
+
+  * Update notification event types
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 28 Apr 2010 12:23:03 +0300
+
+commhistory-daemon (0.0.17.1) unstable; urgency=low
+
+  * Added MMS support.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 27 Apr 2010 08:40:48 +0300
+
+commhistory-daemon (0.0.16.2) unstable; urgency=low
+
+  * Fix commhistory dbus interface
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 23 Apr 2010 18:20:43 +0300
+
+commhistory-daemon (0.0.16.1) unstable; urgency=low
+
+  * Port to meegotouch
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 23 Apr 2010 10:12:24 +0300
+
+commhistory-daemon (0.0.15.11) unstable; urgency=low
+
+  * Improve status message handling
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 19 Apr 2010 18:15:49 +0300
+
+commhistory-daemon (0.0.15.10) unstable; urgency=low
+
+  * Correct release.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 16 Apr 2010 15:20:00 +0200
+
+commhistory-daemon (0.0.15.9) unstable; urgency=low
+
+  * Ported to commhistory 1.0.23.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 16 Apr 2010 15:15:00 +0200
+
+commhistory-daemon (0.0.15.8) unstable; urgency=low
+
+  * Fix notifications l10n
+  * Use voicemail number and dialog from contacts to handle voicemail
+    notifications
+  * Fixes: NB#163837 - Number of missed calls from same number not shown
+    properly in missed call notification.
+  * Fixes: NB#163831 - Empty missed call notification shown for calls
+    received from hidden numbers.
+
+ -- Artem Garmash <artem.garmash@nokia.com>  Tue, 13 Apr 2010 13:58:00 +0300
+
+commhistory-daemon (0.0.15.7) unstable; urgency=low
+
+  * Store the sent vcard.
+  * Update vcard translations.
+  * Save reportDelivery flag for sent messages
+
+ -- Salvatore Iovene <salvatore.iovene@nokia.com>  Fri, 26 Mar 2010 16:25:00 +0200
+
+commhistory-daemon (0.0.15.6) unstable; urgency=low
+
+  * Splitted the engineering English translation of this app
+
+ -- Andrea Marchesini <andrea.marchesini@nokia.com>  Thu, 24 Mar 2010 11:00:33 +0200
+
+commhistory-daemon (0.0.15.5) unstable; urgency=low
+
+  * Fixes: NB#156353 - Commhistoryd crashes during receiving hundreds of IM messages
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 19 Mar 2010 10:28:55 +0200
+
+commhistory-daemon (0.0.15.4) unstable; urgency=low
+
+  * Fixes: NB#160504 - Missing notification for Voicemail
+  * Fixes: NB#160178 - New voicemail counter is not visible on incoming notification
+  * Fixes: NB#160152 - MWI for email, fax, other and video should be dropped
+
+ -- Tan Miaoqing <miaoqing.tan@nokia.com>  Fri, 12 Mar 2010 15:29:32 +0200
+
+commhistory-daemon (0.0.15.3) unstable; urgency=low
+
+  * Added voicemail support.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 10 Mar 2010 12:05:35 +0200
+
+commhistory-daemon (0.0.15.2) unstable; urgency=low
+
+  * Fixes: NB#155276 - Logical ids are shown everywhere in the Messaging application.
+  * Updated translations file (.ts) of MUI.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed,  3 Mar 2010 15:46:02 +0200
+
+commhistory-daemon (0.0.15.1) unstable; urgency=low
+
+  * Enablers for business card receiving
+  * Missed call notification
+  * Notification threshold
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Mon, 01 Mar 2010 10:47:17 +0200
+
+commhistory-daemon (0.0.13.2) unstable; urgency=low
+
+  * Fixed sync contact fetching
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Mon, 15 Feb 2010 15:44:06 +0200
+
+commhistory-daemon (0.0.13.1) unstable; urgency=low
+
+  * Fixes: NB#156271 - commhistory-daemon-tests does not depend on ci-testing
+  * Implemented vcard saving support
+  * Implemented notifications persistency
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Wed, 10 Feb 2010 9:25:00 +0200
+
+commhistory-daemon (0.0.12-4) unstable; urgency=low
+
+  * Simple notification policy implemented
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Mon, 08 Feb 2010 12:42:55 +0200
+
+commhistory-daemon (0.0.12-3) unstable; urgency=low
+
+  * Added messaging translation files
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Tue, 02 Feb 2010 10:29:06 +0200
+
+commhistory-daemon (0.0.12-2) unstable; urgency=low
+
+  * Added a new build target and package for engineering English translation.
+
+ -- Aki Lempinen <aki.lempinen@nokia.com>  Thu, 28 Jan 2010 09:44:09 +0200
+
+commhistory-daemon (0.0.12-1) unstable; urgency=low
+
+  * Ported to libdui 0.18
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Fri, 22 Jan 2010 16:19:59 +0200
+
+commhistory-daemon (0.0.11-9) unstable; urgency=low
+
+  * Fixes: NB#150079 - Memory leak in commhistoryd
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Tue, 29 Dec 2009 10:26:44 +0200
+
+commhistory-daemon (0.0.11-8) unstable; urgency=low
+
+  * Updated module test and tests.xml script
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Fri, 04 Dec 2009 09:09:10 +0200
+
+commhistory-daemon (0.0.11-7) unstable; urgency=low
+
+  * Small fixes for test package
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Fri, 27 Nov 2009 14:43:04 +0200
+
+commhistory-daemon (0.0.11-6) unstable; urgency=low
+
+  * Added test package and module tests, no new functionality
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Thu, 26 Nov 2009 10:39:36 +0200
+
+commhistory-daemon (0.0.11-5) unstable; urgency=low
+
+  * Small fix for contacts API break
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Thu, 29 Oct 2009 10:02:30 +0200
+
+commhistory-daemon (0.0.11-4) unstable; urgency=low
+
+  * Increased version number to rebuild commhistoryd, there were undocumented ABI breaks
+    in underlying components.
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Fri, 23 Oct 2009 10:11:04 +0300
+
+commhistory-daemon (0.0.11-3) unstable; urgency=low
+
+  * Fix for integration with contacts
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Mon, 28 Sep 2009 12:39:20 +0300
+
+commhistory-daemon (0.0.11-2) unstable; urgency=low
+
+  * Fixes: NB#139535 - In Call History View, Called or Dialed Number has not
+    been shown for CS Calls
+
+ -- Alexander Shalamov <alexander.shalamov@nokia.com>  Mon, 28 Sep 2009 10:27:41 +0300
+
+commhistory-daemon (0.0.11-1) unstable; urgency=low
+
+  * Implemented call logging
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 14 Sep 2009 16:41:51 +0300
+
+commhistory-daemon (0.0.10-1) unstable; urgency=low
+
+  * Fixed obsolete libcommhistory API usage.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 10 Sep 2009 12:48:48 +0300
+
+commhistory-daemon (0.0.9-2) unstable; urgency=low
+
+  * Add dependency to libdui-dev package
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue,  8 Sep 2009 14:01:38 +0300
+
+commhistory-daemon (0.0.9-1) unstable; urgency=low
+
+  * Implemented: SWP#RTCHM-807
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue,  8 Sep 2009 11:25:43 +0300
+
+commhistory-daemon (0.0.7-6) unstable; urgency=low
+
+  * Use QtContacts API
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 18 Aug 2009 15:29:25 +0300
+
+commhistory-daemon (0.0.7-5) unstable; urgency=low
+
+  * Update dependencies
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 20 Jul 2009 13:05:55 +0300
+
+commhistory-daemon (0.0.7-4) unstable; urgency=low
+
+  * Updated libcommhistory dependency.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 24 Jun 2009 15:39:46 +0300
+
+commhistory-daemon (0.0.7-3) unstable; urgency=low
+
+  * Add dbus service file to package
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Tue, 16 Jun 2009 15:28:08 +0300
+
+commhistory-daemon (0.0.7-2) unstable; urgency=low
+
+  * Implemented: SWP#RTCHM-384
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 15 Jun 2009 16:43:58 +0300
+
+commhistory-daemon (0.0.7-1) unstable; urgency=low
+
+  * Ported to new tpqt4 interfaces
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri,  5 Jun 2009 09:22:06 +0300
+
+commhistory-daemon (0.0.6-3) unstable; urgency=low
+
+  * Added libcontacts-dev to build deps.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 29 May 2009 15:51:31 +0300
+
+commhistory-daemon (0.0.6-2) unstable; urgency=low
+
+  * changed 0.0.6-1 item details text formatting
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Fri, 29 May 2009 14:54:44 +0300
+
+commhistory-daemon (0.0.6-1) unstable; urgency=low
+
+  * PBI: RTCHM-538 (View conversation history of local contact) done
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 28 May 2009 12:03:35 +0300
+
+commhistory-daemon (0.0.5-1) unstable; urgency=low
+
+  * Updated for libtelepathy-qt4 0.1.3.
+  * Added startup script.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 29 Apr 2009 15:18:42 +0300
+
+commhistory-daemon (0.0.4-3) unstable; urgency=low
+
+  * Add dependency o libtelepathy-qt4-dev
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu,  9 Apr 2009 15:44:21 +0300
+
+commhistory-daemon (0.0.4-2) unstable; urgency=low
+
+  * Fixed changelog
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu,  9 Apr 2009 14:49:34 +0300
+
+commhistory-daemon (0.0.4-1) unstable; urgency=low
+
+  * Fixed package dependencies.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Wed, 08 Apr 2009 12:00:38 +0300
+
+commhistory-daemon (0.0.3-1) unstable; urgency=low
+
+  * Added message group (conversation) support.
+  * Fixed account and event direction handling.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Mon, 06 Apr 2009 10:14:56 +0300
+
+commhistory-daemon (0.0.2-1) unstable; urgency=low
+
+  * Renamed everything from eventlogger to commhistory.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 12 Mar 2009 13:58:45 +0200
+
+eventlogger (0.0.1-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Alvi Hirvela <alvi.hirvela@nokia.com>  Thu, 19 Feb 2009 10:25:01 +0200
+

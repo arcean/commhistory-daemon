@@ -1,0 +1,42 @@
+Source: commhistory-daemon
+Section: comm
+Priority: optional
+Maintainer: Reto Zingg <reto.zingg@nokia.com>
+Build-Depends: debhelper (>= 5), libqt4-dev (>= 4.5), libcommhistory-dev (>= 1.3.7),
+    libtelepathy-qt4-1-dev (>= 0.5), libqtcontacts-dev, libmeegotouch-dev (>=0.20.92),
+    libcontextsubscriber-dev (>= 0.5), libqtm-versit-dev, doxygen, aegis-builder,
+    python2.6, libqmsystem2-dev (>=1.1.9)
+Standards-Version: 3.7.2
+
+Package: commhistory-daemon
+Architecture: any
+Priority: optional
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Messaging/Call logger daemon
+ Logs all instant messages, SMSes and calls to the commhistory database
+ using the Telepathy channel observer feature.
+
+Package: commhistory-daemon-dbg
+Architecture: any
+Priority: extra
+Section: devel
+Depends: commhistory-daemon (=${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: Debugging symbols for commhistory-daemon
+ This package contains the debugging symbols for commhistory-daemon.
+
+Package: commhistory-daemon-tests
+XB-Maemo-CI-Packages: commhistory-daemon
+XB-Maemo-CI-Stage: staging, acceptance
+Architecture: any
+Section: devel
+Priority: extra
+Depends: ci-testing, ${shlibs:Depends}, ${misc:Depends}
+Description: Unit Test files for commhistory-daemon
+
+Package: commhistory-daemon-l10n-engineering-english
+Section: devel
+Architecture: any
+Enhances: commhistory-daemon, call-ui, dialer, call-history
+Description: Engineering English translations for commhistory-daemon.
+ Engineering English translations for commhistory-daemon is also used by
+ call-ui, dialer and call-history.
